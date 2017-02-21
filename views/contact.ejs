@@ -3,11 +3,40 @@
 <body>
   <div class="container">
     <h1>Andrew Dallas</h1>
-    <h3>Contact Me</h3>
-    <h4>Phone: (302)229-2233</h4>
-    <h4><a href="https://linkedin.com/in/andrew-dallas">Linkedin</a></h4>
-    <h4><a href="adal1@live.com">Email</a></h4>
-  </div>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="/"  class="brand-logo left"> AD</a>
+          <ul class="right">
+
+            <li><a href="./about">About</a></li>
+            <li><a href="./projects">Projects</a></li>
+            <li><a href="/">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h2>Contact Me</h2>
+        <form action="/contact/sendMail" method="post">
+          <div>
+            <label>Name:</label>
+            <input type="text" name="name" required/>
+          </div>
+          <div>
+            <label>Email:</label>
+            <input type="text" name="email" required/>
+          </div>
+          <div>
+            <label>Subject:</label>
+            <input type="text" name="subject" required/>
+          </div>
+          <div>
+            <label>Message:</label>
+            <textarea name="message" required></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Register"/>
+          </div>
+        </form>
+      </div>
 </body>
 <% include partials/footer.ejs %>
 </html>

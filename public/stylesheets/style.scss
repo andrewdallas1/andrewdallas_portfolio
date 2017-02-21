@@ -2,4 +2,14 @@ a {
   font-weight: bold;
   text-decoration: none;
   &:hover { text-decoration: underline; }
+  padding: 20px;
+}
+
+
+.brand-logo {
+  padding-right: 50px;
+}
+
+.row {
+  background-color: black;
 }

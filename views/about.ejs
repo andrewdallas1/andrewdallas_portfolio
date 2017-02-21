@@ -1,18 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>About</title>
-</head>
+<% include partials/head.ejs %>
 <body>
+  <div class="container">
   <h1>Andrew Dallas</h1>
-  <h3>About Me</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
-      molestiae sed, architecto ullam consequuntur in cupiditate ipsam fugit
-      minima. Est commodi, tempore quisquam quas nam architecto minus asperiores,
-      laudantium sit!
-  </p>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="/"  class="brand-logo left"> AD</a>
+          <ul class="right">
 
+            <li><a href="./contact">Contact</a></li>
+            <li><a href="./projects">Projects</a></li>
+
+          </ul>
+        </div>
+      </nav>
+  <h3>About Me</h3>
+  <p>I am a dedicated and hard working problem solver. I strive to find efficient
+    and effective solutions to each challenge I am faced with. I believe this is
+    the reason that I love web development. The satisfaction of reaching a
+    project goal or solving a bug and seeing my code work is what drives me.
+  </p>
+</div>
 </body>
 <% include partials/footer.ejs %>
+
 </html>
