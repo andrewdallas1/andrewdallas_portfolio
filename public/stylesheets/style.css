@@ -1,0 +1,21 @@
+a {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px; }
+  a:hover {
+    text-decoration: underline; }
+
+.brand-logo {
+  padding-right: 50px; }
+
+#tile {
+  height: 139px; }
+
+.brand-logo {
+  margin-left: 20px; }
+
+.card-image {
+  height: 250px; }
+
+.card-content {
+  height: 200px; }
