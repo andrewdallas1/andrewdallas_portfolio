@@ -19,7 +19,8 @@ function handleSayHello(req, res, next) {
     from: req.body.email,
     to: 'adal1@live.com',
     subject: req.body.subject,
-    text: req.body.message
+    text:"Name: " + req.body.name + " " + "Email: " + " " + req.body.email + " "
+          + "Message: " + " " + req.body.message
   };
   transporter.sendMail(mailOptions, function(error, info){
     if(error){

@@ -1,9 +1,9 @@
 
 <% include partials/head.ejs %>
 <body>
-  <div class="container">
-    <h1>Andrew Dallas</h1>
-    <nav>
+
+    <div class="navbar-fixed">
+      <nav>
         <div class="nav-wrapper black">
           <a href="/"  class="brand-logo left"> AD</a>
           <ul class="right">
@@ -12,6 +12,10 @@
           </ul>
         </div>
       </nav>
+    </div>
+      <div class="container">
+      <h1>Andrew Dallas</h1>
+      <hr />
       <h2>Contact Me</h2>
         <form action="/contact/sendMail" method="post">
           <div>
@@ -24,7 +28,7 @@
           </div>
           <div>
             <label>Subject:</label>
-            <input type="text" name="subject" placeHolder="Please include your name" required/>
+            <input type="text" name="subject" required/>
           </div>
           <div>
             <label>Message:</label>

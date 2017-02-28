@@ -8,8 +8,8 @@ a {
 .brand-logo {
   padding-right: 50px; }
 
-#tile {
-  height: 139px; }
+img {
+  height: 250px; }
 
 .brand-logo {
   margin-left: 20px; }
@@ -27,3 +27,6 @@ a {
 
 #about {
   font-size: 18px; }
+
+.card-title {
+  padding: 2px; }

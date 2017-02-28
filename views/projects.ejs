@@ -1,8 +1,7 @@
 
 <% include partials/head.ejs %>
 <body>
-<div class="container">
-  <h1>Andrew Dallas</h1>
+    <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper black">
           <a href="/"  class="brand-logo left"> AD</a>
@@ -13,17 +12,21 @@
           </ul>
         </div>
       </nav>
+      </div>
+  <div class="container">
+  <h1>Andrew Dallas</h1>
+  <hr />
   <h3>My Projects</h3>
-
+  <div class="container">
   <div class="row">
         <div class="col s12 m6 l6">
-          <div class="card center" id="card1">
+          <div class="card" id="card1">
             <div class="card-image">
               <img src="../images/punch-in.jpg">
               <span class="card-title white black-text">Punch-In</span>
             </div>
             <div class="card-content">
-              <p>Punch-In is productivity designed to be a simple way for
+              <p>Punch-In is a productivity app designed to be a simple way for
                   users to track tasks and time. I found that if
                   I was able to make a task tracking application with
                   nothing else to distract from work then more could be
@@ -31,7 +34,8 @@
               </p>
             </div>
             <div class="card-action">
-              <a href="http://punch-in.bitballoon.com">Check it out!</a>
+              <a href="http://punch-in.bitballoon.com">Site</a>|
+              <a href="https://github.com/andrewdallas1/Punch-In">Git Repo</a>
             </div>
           </div>
 
@@ -40,7 +44,7 @@
         <div class="col s12 m6 l6">
           <div class="card" id="card2">
             <div class="card-image">
-              <img src="../images/tile-game.jpg" id="tile">
+              <img src="../images/tile-game.jpg">
               <span class="card-title white black-text">Tile Game</span>
             </div>
             <div class="card-content">
@@ -51,10 +55,55 @@
               </p>
             </div>
             <div class="card-action">
-              <a href="https://andrewdallas1.github.io/tile_game/">Check it out!</a>
+              <a href="https://andrewdallas1.github.io/tile_game/">Site</a>|
+              <a href="https://github.com/andrewdallas1/tile_game">Git Repo</a>
             </div>
           </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="card" id="card1">
+            <div class="card-image">
+              <img src="../images/specific-weather.png">
+              <span class="card-title white-text">Specific</br> Weather</span>
+            </div>
+            <div class="card-content">
+              <p>Specific Weather is a no-nonsense weather application which
+              uses the the Google geolocation api along with the Dark Sky
+              weather api to provide real-time temperature and weather summary
+              for the user's current location.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://polar-sierra-33503.herokuapp.com/">Site</a>|
+              <a href="https://github.com/andrewdallas1/specific-weather">Git Repo</a>
+            </div>
+          </div>
+
+      </div>
+
+        <div class="col s12 m6 l6">
+          <div class="card" id="card2">
+            <div class="card-image">
+              <img src="../images/BarMatch.png">
+              <span class="card-title white black-text">BarMatch</span>
+            </div>
+            <div class="card-content">
+              <p>BarMatch is a web application which combines Google's geolocation api
+              with Google's places api to get a user's current location and display
+              a list of bars near them. It also includes an embedded Google map
+              with markers point to the locations listed. BarMatch can be refactored
+              very easily to locate anything from cafes to hospitals.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="">Site</a>|
+              <a href="https://github.com/andrewdallas1/barMatch">Git Repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
 </body>
